@@ -1,0 +1,15 @@
+.vor-bakgrunnur {
+    -fx-background-color: lightgreen;
+}
+
+.sumar-bakgrunnur {
+    -fx-background-color: lightyellow;
+}
+
+.haust-bakgrunnur {
+    -fx-background-color: #db7093;
+}
+
+.vetur-bakgrunnur {
+    -fx-background-color: lightblue;
+}

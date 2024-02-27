@@ -1,0 +1,8 @@
+/hi/vidmot/media/vivaldi.spring.mp3|Vivaldi - Spring|9378|/hi/vidmot/media/vivaldi.spring.jpg|1
+/hi/vidmot/media/vivaldi.summer.mp3|Vivaldi - Summer|12174|/hi/vidmot/media/vivaldi.summer.jpg|2
+/hi/vidmot/media/vivaldi.autumn.mp3|Vivaldi - Autumn|6359|/hi/vidmot/media/vivaldi.autumn.jpg|3
+/hi/vidmot/media/vivaldi.winter.mp3|Vivaldi - Winter|14308|/hi/vidmot/media/vivaldi.winter.jpg|4
+/hi/vidmot/media/furduverk.mp3|Ruth Reginalds - Furðuverk|9486|/hi/vidmot/media/furduverk.jpg|1
+/hi/vidmot/media/giantsteps.mp3|John Coltrane - Giant Steps|9556|/hi/vidmot/media/giantsteps.jpg|3
+/hi/vidmot/media/gilberto.bimbom.mp3|Joao Gilberto - Bim Bom|10761|/hi/vidmot/media/gilberto.jpg|2
+/hi/vidmot/media/utisnjoa.mp3|Jón Múli - Úti er alltaf að Snjóa|12991|/hi/vidmot/media/snjoa.jpg|4
