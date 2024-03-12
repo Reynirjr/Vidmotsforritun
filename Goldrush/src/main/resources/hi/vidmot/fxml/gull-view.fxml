@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="hi.vidmot.Gull">
+
+    <Circle fx:id="gullCircle" radius="20" fill=""/>
+</StackPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import hi.vidmot.Leikbord?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.vidmot.GoldController">
+    <fx:include fx:id="menuStyring" source="menu-view.fxml"/>
+    <Label fx:id="goldrushlabel" alignment="CENTER" text="Gold Rush" textAlignment="CENTER" textFill="#ccbd1c">
+        <VBox.margin>
+            <Insets/>
+        </VBox.margin>
+        <font>
+            <Font name="System Bold" size="24.0"/>
+        </font>
+    </Label>
+    <Label fx:id="timiLabel" text="Tími: " textFill="RED">
+        <font>
+            <Font name="JetBrains Mono ExtraBold" size="36.0"/>
+        </font>
+    </Label>
+    <Label fx:id="stigLabel" layoutX="10" layoutY="10" text="Stig: 0" textFill="#bfb619">
+        <font>
+            <Font name="Blackadder ITC" size="18.0"/>
+        </font>
+    </Label>
+    <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+        <children>
+            <Button fx:id="pauseButton" mnemonicParsing="false" onAction="#onPasa" text="Pása Leik"/>
+        </children>
+        <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+        </VBox.margin>
+    </HBox>
+    <Leikbord fx:id="leikbord" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0"
+              prefWidth="500.0" style="-fx-border-color: black; -fx-border-width: 2;">
+        <VBox.margin>
+            <Insets bottom="50.0"/>
+        </VBox.margin>
+    </Leikbord>
+    <VBox.margin>
+        <Insets bottom="100.0"/>
+    </VBox.margin>
+
+
+</VBox>

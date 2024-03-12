@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.shape.Rectangle?>
+<fx:root fill="#c46924" focusTraversable="true" height="30.0"
+         type="Rectangle" width="10.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+</fx:root>

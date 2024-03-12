@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.vidmot.MenuController">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Skrá">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onNyrLeikur" text="Nýr Leikur"/>
+                        <MenuItem mnemonicParsing="false" onAction="#onQuit" text="Hætta"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Breyta">
+                    <items>
+                        <RadioMenuItem fx:id="leikurAudvelt" mnemonicParsing="false" onAction="#onErfidleikastig"
+                                       text="Auðvelt">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="Erfidleikastig"/>
+                            </toggleGroup>
+                        </RadioMenuItem>
+                        <RadioMenuItem fx:id="leikurMidlungs" mnemonicParsing="false" onAction="#onErfidleikastig"
+                                       selected="true" text="Miðlungs" toggleGroup="$Erfidleikastig"/>
+                        <RadioMenuItem fx:id="LeikurErfitt" mnemonicParsing="false" onAction="#onErfidleikastig"
+                                       text="Erfitt" toggleGroup="$Erfidleikastig"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Hjálp">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onUmFor" text="Um forritið"/>
+                        <MenuItem mnemonicParsing="false" onAction="#onUmSpil" text="Hvernig á að spila?"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</VBox>
